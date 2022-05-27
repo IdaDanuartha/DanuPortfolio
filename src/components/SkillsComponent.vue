@@ -5,8 +5,8 @@
       <v-col
         v-for="skill in skills"
         :key="skill"
-        cols="10"
-        sm="1"
+        cols="12"
+        sm="2"
         class="ma-1"
       >
         <v-card

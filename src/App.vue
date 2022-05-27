@@ -5,7 +5,7 @@
         <v-list-item-content>
           <v-img
             height="100%"
-            src="https://cdn.vuetifyjs.com/images/cards/server-room.jpg"
+            src="@/assets/coding.jpg"
           >
             <v-row align="end" class="fill-height">
               <v-col align-self="start" class="pa-0" cols="12">
@@ -108,7 +108,7 @@ export default {
 }
 @media (max-width: 768px) {
   .container {
-    width: 100%;
+    width: 95%;
   }
 }
 .title-h2 {

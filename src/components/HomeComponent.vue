@@ -10,7 +10,9 @@
     >
       <v-col
         class="text-center"
-        cols="6"
+        cols="12"
+        sm="6"
+        md="7"
       >
         <h1 class="text-h4 font-weight-medium mb-4">
           Ida Putu Sucita Danuartha
@@ -20,16 +22,18 @@
         </h4>
       </v-col>
       <v-col
-        cols="6"
+        cols="12"
+        sm="6"
+        md="5"
       >
-        <img width="500" :src="profileImg" alt="Profile Picture">
+        <img width="400" :src="profileImg" alt="Profile Picture">
       </v-col>
     </v-row>
   </v-parallax>
 </template>
 
 <script>
-import profile from '@/assets/removebg-profile-3.png'
+import profile from '@/assets/removebg-profile-2.png'
 export default {
   data() {
     return {
@@ -42,5 +46,11 @@ export default {
 <style scoped>
  #home {
    margin-bottom: 50px;
+ }
+
+ @media (max-width: 600px) {
+   .text-h4 {
+     margin-top: 100px;
+   }
  }
 </style>

@@ -5,7 +5,7 @@
       <v-col v-for="portfolio in portfolioDatas" :key="portfolio.name">
         <v-card class="" max-width="300">
           <v-img
-            src="https://cdn.vuetifyjs.com/images/cards/sunshine.jpg"
+            :src="portfolio.image"
             height="200px"
           ></v-img>
 
@@ -41,6 +41,13 @@
 </template>
 
 <script>
+import mynotes from '@/assets/mynotes.png'
+import skillful from '@/assets/skillful.png'
+import simpleMovie from '@/assets/simple-movie-app.png'
+import dbengkel from '@/assets/d-bengkel.png'
+import aplikasiTabung from '@/assets/hitung-tabung.png'
+import searchMovie from '@/assets/search-movie-api.png'
+
 export default {
   data: () => ({
     show: false,
@@ -49,37 +56,43 @@ export default {
             name: 'MyNotes',
             technology: 'Laravel, Bootstrap',
             description: 'Sebuah website sederhana untuk menyimpan materi-materi yang ada disekolah. Website ini dibuat menggunakan framework Laravel 8 dan bootstrap untuk framework cssnya.',
-            link: 'https://github.com/IdaDanuartha/MyNotes-laravel'
+            link: 'https://github.com/IdaDanuartha/MyNotes-laravel',
+            image: mynotes
         },
         {
             name: 'Skillful',
             technology: 'HTML, CSS, Javascript, Bootstrap',
             description: 'Sebuah website blog statis yang dibuat bersama 6 orang untuk tugas sekolah. Website ini dibuat menggunakan HTML, CSS, Javascript dan bootstrap untuk framework cssnya.',
-            link: 'https://github.com/IdaDanuartha/skillful'
+            link: 'https://github.com/IdaDanuartha/skillful',
+            image: skillful
         }, 
         {
             name: 'Simple Movie App',
             technology: 'Vue Js, Tailwind',
-            description: 'Sebuah website sederhana untuk melihat sinopsis-sinopsis film. Website ini dibuat menggunakan framework Vue Js, tailwind untuk framework cssnya dan API dari IMDB untuk data filmnya.',
-            link: 'https://github.com/IdaDanuartha/Simple-Movie-App'
+            description: 'Sebuah website sederhana untuk melihat sinopsis-sinopsis film. Website ini dibuat menggunakan framework Vue Js, tailwind untuk framework cssnya dan API dari OMDb untuk data filmnya.',
+            link: 'https://github.com/IdaDanuartha/Simple-Movie-App',
+            image: simpleMovie
         },
         {
             name: 'DBengkel APP',
             technology: 'Laravel, Bootstrap, Tailwind',
             description: 'Sebuah website E-Commerce yang menjual kebutuhan bengkel. Website ini dibuat menggunakan framework Laravel 8, Bootstrap dan Tailwind untuk framework cssnya.',
-            link: 'https://github.com/IdaDanuartha/DBengkel-web'
+            link: 'https://github.com/IdaDanuartha/DBengkel-web',
+            image: dbengkel
         },
         {
             name: 'Aplikasi Tabung',
             technology: 'Java',
             description: 'Sebuah aplikasi sederhana untuk menghitung volume dan luas permukaan bangun ruang tabung. Aplikasi ini dibuat menggunakan bahasa Java untuk melengkapi tugas sekolah.',
-            link: 'https://github.com/IdaDanuartha/Aplikasi-Menghitung-Tabung'
+            link: 'https://github.com/IdaDanuartha/Aplikasi-Menghitung-Tabung',
+            image: aplikasiTabung
         },
         {
             name: 'Search Movie App',
             technology: 'HTML, CSS, Javascript',
-            description: 'Sebuah website sederhana untuk mecari dan melihat sinopsis film. Website ini dibuat menggunakan HTML, CSS, Javascript dan API dari IMDB untuk data filmnya',
-            link: 'https://github.com/IdaDanuartha/SearchMovie-API'
+            description: 'Sebuah website sederhana untuk mecari dan melihat sinopsis film. Website ini dibuat menggunakan HTML, CSS, Javascript dan API dari OMDb untuk data filmnya',
+            link: 'https://github.com/IdaDanuartha/SearchMovie-API',
+            image: searchMovie
         }
     ]
   }),
