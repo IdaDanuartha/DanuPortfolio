@@ -102,6 +102,10 @@ export default {
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   padding-top: 90px;
   width: 80%;
