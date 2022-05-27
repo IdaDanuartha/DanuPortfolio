@@ -10,7 +10,7 @@
     >
       <v-col
         class="text-center"
-        cols="7"
+        cols="6"
       >
         <h1 class="text-h4 font-weight-medium mb-4">
           Ida Putu Sucita Danuartha
@@ -20,17 +20,16 @@
         </h4>
       </v-col>
       <v-col
-        class="text-center"
-        cols="5"
+        cols="6"
       >
-        <v-img :src="profileImg" alt=""></v-img>
+        <img width="500" :src="profileImg" alt="Profile Picture">
       </v-col>
     </v-row>
   </v-parallax>
 </template>
 
 <script>
-import profile from '@/assets/profile.png'
+import profile from '@/assets/removebg-profile-3.png'
 export default {
   data() {
     return {

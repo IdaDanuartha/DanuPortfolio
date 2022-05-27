@@ -2,7 +2,7 @@
     <v-container class="container" id="about">
         <div class="d-flex justify-center">
             <div class="mr-10">
-                <v-img width="300" src="https://picsum.photos/600/400"></v-img>
+                <v-img width="350" src="@/assets/my-profile.png"></v-img>
             </div>
             <div>
                 <h2 class="title-h2">About Me</h2>

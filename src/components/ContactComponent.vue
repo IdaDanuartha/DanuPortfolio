@@ -5,7 +5,6 @@
       <v-text-field
         v-model="name"
         :error-messages="nameErrors"
-        :counter="10"
         label="Name"
         required
         @input="$v.name.$touch()"
@@ -58,8 +57,6 @@ export default {
     nameErrors() {
       const errors = [];
       if (!this.$v.name.$dirty) return errors;
-      !this.$v.name.maxLength &&
-        errors.push("Name must be at most 10 characters long");
       !this.$v.name.required && errors.push("Name is required.");
       return errors;
     },

@@ -14,7 +14,7 @@
                   color="grey"
                   size="75"
                 >
-                  <v-img src="https://picsum.photos/100/100"></v-img>
+                  <v-img src="@/assets/removebg-profile-2.png"></v-img>
                 </v-avatar>
               </v-col>
               <v-col class="py-0">
