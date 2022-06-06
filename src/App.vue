@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire" style="font-family: 'Fira Code'">
-    <v-navigation-drawer v-model="drawer" app>
+    <v-navigation-drawer color="grey darken-4" v-model="drawer" app>
       <v-list-item>
         <v-list-item-content>
           <v-img
@@ -24,7 +24,7 @@
                       Danuartha
                     </v-list-item-title>
                     <v-list-item-subtitle
-                      >Junior Web Developer</v-list-item-subtitle
+                      >Pengembang Web</v-list-item-subtitle
                     >
                   </v-list-item-content>
                 </v-list-item>
@@ -39,20 +39,20 @@
       <v-list dense nav>
         <v-list-item :href="item.link" v-for="item in items" :key="item.title" link>
           <v-list-item-icon>
-            <v-icon>{{ item.icon }}</v-icon>
+            <v-icon class="white--text">{{ item.icon }}</v-icon>
           </v-list-item-icon>
 
           <v-list-item-content>
-            <v-list-item-title>{{ item.title }}</v-list-item-title>
+            <v-list-item-title class="white--text">{{ item.title }}</v-list-item-title>
           </v-list-item-content>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
-    <v-app-bar app>
+    <v-app-bar elevation="4" app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
-      <v-toolbar-title>DanuPortfolio</v-toolbar-title>
+      <v-toolbar-title class="font-weight-medium">DanuPortfolio</v-toolbar-title>
     </v-app-bar>
 
     <v-main>
@@ -107,9 +107,11 @@ html {
 }
 
 .container {
-  padding-top: 90px;
+  padding-top: 100px;
+  margin-top: 100px;
   width: 80%;
 }
+
 @media (max-width: 768px) {
   .container {
     width: 95%;

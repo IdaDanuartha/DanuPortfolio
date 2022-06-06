@@ -14,8 +14,8 @@
         sm="6"
         md="7"
       >
-        <h1 class="text-h4 font-weight-medium mb-4">
-          Ida Putu Sucita Danuartha
+        <h1 class="text-h4 font-weight-bold mb-4">
+          Hi, i'm <span class="typing-text yellow--text"></span>
         </h1>
         <h4 class="subheading font-weight-regular">
           Software Engineering Student at SMK Negeri 1 Denpasar
@@ -34,11 +34,22 @@
 
 <script>
 import profile from '@/assets/removebg-profile-2.png'
+import Typed from 'typed.js';
+
 export default {
   data() {
     return {
       profileImg: profile
     }
+  },
+  mounted() {
+    let typed = new Typed('.typing-text', {
+        strings: ['Student', 'Athlete', 'Junior Web Developer'],
+        typeSpeed: 200,
+        backSpeed: 50,
+        loop: true
+    });
+    return typed
   }
 }
 </script>

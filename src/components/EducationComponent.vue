@@ -1,7 +1,7 @@
 <template>
   <v-container class="container" id="education">
     <h2 class="title-h2">Education</h2>
-      <v-timeline>
+      <!-- <v-timeline>
     <v-timeline-item
       v-for="(year, i) in years"
       :key="i"
@@ -22,6 +22,26 @@
           {{ year.description }}
         </div>
       </div>
+    </v-timeline-item>
+  </v-timeline> -->
+  <v-timeline>
+    <v-timeline-item
+      v-for="(year, i) in years"
+      :key="i"
+      :color="year.color"
+      medium
+    >
+      <template v-slot:opposite>
+        <span>{{ year.year }}</span>
+      </template>
+      <v-card class="elevation-3 white--text" :class="year.color">
+        <v-card-title class="text-sm-h6 text-h5 font-weight-bold ">
+          {{ year.title }}
+        </v-card-title>
+        <v-card-text class="font-weight-medium">
+          {{ year.description }}
+        </v-card-text>
+      </v-card>
     </v-timeline-item>
   </v-timeline>
   </v-container>

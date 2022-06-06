@@ -2,7 +2,7 @@
   <v-container class="container" id="portfolio">
     <h2 class="title-h2">Portfolio</h2>
     <v-row>
-      <v-col v-for="portfolio in portfolioDatas" :key="portfolio.name">
+      <v-col cols="6" sm="6" md="4" lg="3" v-for="portfolio in portfolioDatas" :key="portfolio.name">
         <v-card class="" max-width="300">
           <v-img
             :src="portfolio.image"
@@ -45,7 +45,6 @@ import mynotes from '@/assets/mynotes.png'
 import skillful from '@/assets/skillful.png'
 import simpleMovie from '@/assets/simple-movie-app.png'
 import dbengkel from '@/assets/d-bengkel.png'
-import aplikasiTabung from '@/assets/hitung-tabung.png'
 import searchMovie from '@/assets/search-movie-api.png'
 
 export default {
@@ -61,7 +60,7 @@ export default {
         },
         {
             name: 'Skillful',
-            technology: 'HTML, CSS, Javascript, Bootstrap',
+            technology: 'HTML, CSS, Javascript',
             description: 'Sebuah website blog statis yang dibuat bersama 6 orang untuk tugas sekolah. Website ini dibuat menggunakan HTML, CSS, Javascript dan bootstrap untuk framework cssnya.',
             link: 'https://github.com/IdaDanuartha/skillful',
             image: skillful
@@ -75,17 +74,10 @@ export default {
         },
         {
             name: 'DBengkel APP',
-            technology: 'Laravel, Bootstrap, Tailwind',
-            description: 'Sebuah website E-Commerce yang menjual kebutuhan bengkel. Website ini dibuat menggunakan framework Laravel 8, Bootstrap dan Tailwind untuk framework cssnya.',
+            technology: 'Laravel, Jquery, Tailwind',
+            description: 'Sebuah website E-Commerce yang menjual kebutuhan bengkel. Website ini dibuat menggunakan framework Laravel 8, Jquery, dan Tailwind untuk framework cssnya.',
             link: 'https://github.com/IdaDanuartha/DBengkel-web',
             image: dbengkel
-        },
-        {
-            name: 'Aplikasi Tabung',
-            technology: 'Java',
-            description: 'Sebuah aplikasi sederhana untuk menghitung volume dan luas permukaan bangun ruang tabung. Aplikasi ini dibuat menggunakan bahasa Java untuk melengkapi tugas sekolah.',
-            link: 'https://github.com/IdaDanuartha/Aplikasi-Menghitung-Tabung',
-            image: aplikasiTabung
         },
         {
             name: 'Search Movie App',

@@ -25,7 +25,7 @@
         </template>
     </v-textarea>
 
-      <v-btn class="mt-3 mr-4 blue lighten-2" @click="submit"> submit </v-btn>
+      <v-btn class="mt-3 mr-4 blue lighten-1" style="color: #fff;" @click="submit"> submit </v-btn>
       <v-btn class="mt-3 blue-grey lighten-3" @click="clear"> clear </v-btn>
     </form>
   </v-container>

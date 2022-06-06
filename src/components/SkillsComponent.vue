@@ -5,8 +5,10 @@
       <v-col
         v-for="skill in skills"
         :key="skill"
-        cols="12"
-        sm="2"
+        cols="5"
+        sm="4"
+        md="3"
+        lg="2"
         class="ma-1"
       >
         <v-card
@@ -25,13 +27,12 @@
 import html from '@/assets/skills-img/html.png'
 import css from '@/assets/skills-img/css-3.png'
 import js from '@/assets/skills-img/js.png'
-import php from '@/assets/skills-img/php.png'
 import mysql from '@/assets/skills-img/mysql.png'
 import bootstrap from '@/assets/skills-img/bootstrap.png'
 import tailwind from '@/assets/skills-img/tailwind.png'
 import laravel from '@/assets/skills-img/laravel.png'
 import vuejs from '@/assets/skills-img/vue js.png'
-import nodejs from '@/assets/skills-img/nodejs.png'
+import nodejs from '@/assets/skills-img/nodejs.jpg'
 import mongodb from '@/assets/skills-img/mongodb.png'
 
 export default {
@@ -49,10 +50,6 @@ export default {
                 {
                     name: "Javascript",
                     img: js
-                },
-                {
-                    name: "PHP",
-                    img: php
                 },
                 {
                     name: "MySQL",
