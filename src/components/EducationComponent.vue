@@ -54,26 +54,26 @@
         {
           color: 'cyan',
           year: '2009 - 2011',
-          title: 'Taman Kanak-Kanak (TK)',
-          description: 'Saya menjalani pendidikan di TK Citra Dharma selama 2 tahun. Dari tahun 2009 sampai 2011'
+          title: 'Kindergarten',
+          description: 'Citra Dharma Kindergarten was where I spent two years of my life learning. In the years 2009-2011'
         },
         {
           color: 'green',
           year: '2011 - 2017',
-          title: 'Sekolah Dasar (SD)',
-          description: 'Saya menjalani pendidikan di SD Negeri 6 Dalung selama 6 tahun. Dari tahun 2011 sampai 2017'
+          title: 'Elementary School',
+          description: 'SD Negeri 6 Dalung was where I spent six years of my education. In the years 2011-2017'
         },
         {
           color: 'pink',
           year: '2017 - 2020',
-          title: 'Sekolah Menengah Pertama (SMP)',
-          description: 'Saya menjalani pendidikan di SMP Negeri 2 Kuta Utara selama 3 tahun. Dari tahun 2017 sampai 2020'
+          title: 'Junior High School',
+          description: 'SMP Negeri 2 Kuta Utara was where I spent three years of my education. In the years 2017-2020'
         },
         {
           color: 'deep-orange',
           year: '2020 - Until Present',
-          title: 'Sekolah Menengah Kejuruan (SMK)',
-          description: 'Saya baru menjalani pendidikan di SMK Negeri 1 Denpasar selama 2 tahun. Dari tahun 2020 sampai sekarang'
+          title: 'Vocational High School',
+          description: 'For the past two years, I have been a student at SMK Negeri 1 Denpasar. From 2020 to the present'
         },
       ],
     }),

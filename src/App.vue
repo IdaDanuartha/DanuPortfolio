@@ -24,7 +24,7 @@
                       Danuartha
                     </v-list-item-title>
                     <v-list-item-subtitle
-                      >Pengembang Web</v-list-item-subtitle
+                      >Jr. Web Developer</v-list-item-subtitle
                     >
                   </v-list-item-content>
                 </v-list-item>

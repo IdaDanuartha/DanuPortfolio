@@ -54,35 +54,35 @@ export default {
         {
             name: 'MyNotes',
             technology: 'Laravel, Bootstrap',
-            description: 'Sebuah website sederhana untuk menyimpan materi-materi yang ada disekolah. Website ini dibuat menggunakan framework Laravel 8 dan bootstrap untuk framework cssnya.',
+            description: 'A basic website for educational materials storage. This site was built with the Laravel 8 framework and the Bootstrap CSS framework.',
             link: 'https://github.com/IdaDanuartha/MyNotes-laravel',
             image: mynotes
         },
         {
             name: 'Skillful',
             technology: 'HTML, CSS, Javascript',
-            description: 'Sebuah website blog statis yang dibuat bersama 6 orang untuk tugas sekolah. Website ini dibuat menggunakan HTML, CSS, Javascript dan bootstrap untuk framework cssnya.',
+            description: 'For a school project, six persons collaborated to develop a static blog website. HTML, CSS, Javascript, and the CSS framework bootstrap were used to create this website.',
             link: 'https://github.com/IdaDanuartha/skillful',
             image: skillful
         }, 
         {
             name: 'Simple Movie App',
             technology: 'Vue Js, Tailwind',
-            description: 'Sebuah website sederhana untuk melihat sinopsis-sinopsis film. Website ini dibuat menggunakan framework Vue Js, tailwind untuk framework cssnya dan API dari OMDb untuk data filmnya.',
+            description: 'A straightforward website for viewing movies synopses. The Vue Js framework was used to build this website, as well as Tailwind for the CSS framework and the OMDb API for the movie data..',
             link: 'https://github.com/IdaDanuartha/Simple-Movie-App',
             image: simpleMovie
         },
         {
             name: 'DBengkel APP',
             technology: 'Laravel, Jquery, Tailwind',
-            description: 'Sebuah website E-Commerce yang menjual kebutuhan bengkel. Website ini dibuat menggunakan framework Laravel 8, Jquery, dan Tailwind untuk framework cssnya.',
+            description: 'An E-Commerce site that offers workshop supplies and has a lot of features. The Laravel 8 framework, Jquery, and Tailwind for the CSS framework were used to create this website.',
             link: 'https://github.com/IdaDanuartha/DBengkel-web',
             image: dbengkel
         },
         {
             name: 'Search Movie App',
             technology: 'HTML, CSS, Javascript',
-            description: 'Sebuah website sederhana untuk mecari dan melihat sinopsis film. Website ini dibuat menggunakan HTML, CSS, Javascript dan API dari OMDb untuk data filmnya',
+            description: 'A basic website that allows you to search for and see movie synopses. This website was built with HTML, CSS, Javascript, and the OMDb API for movie data.',
             link: 'https://github.com/IdaDanuartha/SearchMovie-API',
             image: searchMovie
         }
