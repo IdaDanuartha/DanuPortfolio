@@ -2,7 +2,7 @@
   <v-container class="container" id="about">
     <div class="d-flex flex-column flex-md-row justify-center">
       <div class="mr-10">
-        <v-img width="350" src="@/assets/my-profile.png"></v-img>
+        <v-img width="350" src="@/assets/profile-danu-horizontal.jpeg"></v-img>
       </div>
       <div>
         <h2 class="title-h2 mt-10 mt-md-0">About Me</h2>

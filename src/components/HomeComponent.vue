@@ -3,6 +3,7 @@
     dark
     src="@/assets/black.jpg"
     id="home"
+    height="550"
   >
     <v-row
       align="center"
@@ -26,14 +27,14 @@
         sm="6"
         md="5"
       >
-        <img width="400" :src="profileImg" alt="Profile Picture">
+        <img width="500" class="profile-img" :src="profileImg" alt="Profile Picture">
       </v-col>
     </v-row>
   </v-parallax>
 </template>
 
 <script>
-import profile from '@/assets/removebg-profile-2.png'
+import profile from '@/assets/profile-danu-horizontal-removebg.png'
 import Typed from 'typed.js';
 
 export default {
@@ -61,7 +62,10 @@ export default {
 
  @media (max-width: 600px) {
    .text-h4 {
-     margin-top: 100px;
+     margin-top: 180px;
+   }
+   .profile-img {
+     width: 400px;
    }
  }
 </style>

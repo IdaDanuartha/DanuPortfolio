@@ -68,7 +68,7 @@ export default {
         {
             name: 'Simple Movie App',
             technology: 'Vue Js, Tailwind',
-            description: 'A straightforward website for viewing movies synopses. The Vue Js framework was used to build this website, as well as Tailwind for the CSS framework and the OMDb API for the movie data..',
+            description: 'A straightforward website for viewing movies synopses. The Vue Js framework was used to build this website, as well as Tailwind for the CSS framework and the OMDb API for the movie data.',
             link: 'https://github.com/IdaDanuartha/Simple-Movie-App',
             image: simpleMovie
         },
