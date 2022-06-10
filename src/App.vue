@@ -14,7 +14,7 @@
                   color="grey"
                   size="75"
                 >
-                  <v-img src="@/assets/profile-danu-horizontal-bg-remove.jpeg"></v-img>
+                  <v-img src="@/assets/my-profile-3.jpeg"></v-img>
                 </v-avatar>
               </v-col>
               <v-col class="py-0">
