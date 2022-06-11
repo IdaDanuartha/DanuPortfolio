@@ -47,6 +47,17 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
+       <v-btn
+        tile
+        color="indigo darken-1"
+        class="white--text d-block ma-5 rounded"
+        @click="downloadCV"
+        >
+        <v-icon left>
+          mdi-download
+        </v-icon>
+        Download CV
+      </v-btn>
     </v-navigation-drawer>
 
     <v-app-bar elevation="4" app>
@@ -75,6 +86,9 @@ import Education from "@/components/EducationComponent.vue";
 import Portfolio from "@/components/PortfolioComponent.vue";
 import Contact from "@/components/ContactComponent.vue";
 import Footer from "@/components/FooterComponent.vue";
+
+import axios from 'axios'
+
 export default {
   components: {
     Home,
@@ -98,6 +112,28 @@ export default {
       ],
     };
   },
+  mounted() {
+    this.downloadCV();
+  },
+  methods: {
+    downloadCV() {
+        axios({
+              url: 'https://danu-portfolio.netlify.app/danu-cv.png', // File URL Goes Here
+              method: 'GET',
+              responseType: 'blob',
+          }).then((res) => {
+                var fileURL = window.URL.createObjectURL(new Blob([res.data]));
+                
+                var fileLink = document.createElement('a');
+                fileLink.href = fileURL;
+
+                fileLink.setAttribute('download', 'danu-cv.png');
+                document.body.appendChild(fileLink);
+
+                fileLink.click();
+          });
+    }
+  }
 };
 </script>
 
