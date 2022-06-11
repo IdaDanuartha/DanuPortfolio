@@ -118,7 +118,7 @@ export default {
   methods: {
     downloadCV() {
         axios({
-              url: 'https://danu-portfolio.netlify.app/danu-cv.png', // File URL Goes Here
+              url: 'https://danu-portfolio.netlify.app/danu-cv.png',
               method: 'GET',
               responseType: 'blob',
           }).then((res) => {
