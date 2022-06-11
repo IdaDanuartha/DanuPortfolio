@@ -112,9 +112,6 @@ export default {
       ],
     };
   },
-  mounted() {
-    this.downloadCV();
-  },
   methods: {
     downloadCV() {
         axios({
