@@ -1,9 +1,9 @@
 <template>
   <v-container class="container" id="portfolio">
     <h2 class="title-h2">Portfolio</h2>
-    <v-row>
+    <v-row class="mx-auto">
       <v-col
-        cols="6"
+        cols="12"
         sm="6"
         md="4"
         lg="3"
@@ -51,6 +51,8 @@ import mynotes from "@/assets/mynotes.png";
 import simpleMovie from "@/assets/simple-movie-app.png";
 import dbengkel from "@/assets/d-bengkel.png";
 import searchMovie from "@/assets/search-movie-api.png";
+import blogApp from "@/assets/blogApp.jpg";
+import bookshelfAPI from "@/assets/bookshelf-api.jpg";
 
 export default {
   data: () => ({
@@ -94,7 +96,15 @@ export default {
         description:
           "a full-stack blog with a content management system built using the Laravel framework and Tailwindcss.",
         link: "https://github.com/IdaDanuartha/danblog-app",
-        image: "https://picsum.photos/400",
+        image: blogApp,
+      },
+      {
+        name: "Bookshelf API",
+        technology: "Nodejs (Hapi.js)",
+        description:
+          "A simple Rest API project with Nodejs and Hapijs framework. This project is an assignment from dicoding.",
+        link: "https://github.com/IdaDanuartha/danblog-app",
+        image: bookshelfAPI,
       },
     ],
   }),
