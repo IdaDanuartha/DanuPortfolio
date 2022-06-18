@@ -103,7 +103,7 @@ export default {
         technology: "Nodejs (Hapi.js)",
         description:
           "A simple Rest API project with Nodejs and Hapijs framework. This project is an assignment from dicoding.",
-        link: "https://github.com/IdaDanuartha/danblog-app",
+        link: "https://github.com/IdaDanuartha/bookshelf-api",
         image: bookshelfAPI,
       },
     ],
