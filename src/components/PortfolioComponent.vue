@@ -53,6 +53,7 @@ import dbengkel from "@/assets/d-bengkel.png";
 import searchMovie from "@/assets/search-movie-api.png";
 import blogApp from "@/assets/blogApp.jpg";
 import bookshelfAPI from "@/assets/bookshelf-api.jpg";
+import travelend from "@/assets/travelend.png";
 
 export default {
   data: () => ({
@@ -105,6 +106,14 @@ export default {
           "A simple Rest API project with Nodejs and Hapijs framework. This project is an assignment from dicoding.",
         link: "https://github.com/IdaDanuartha/bookshelf-api",
         image: bookshelfAPI,
+      },
+      {
+        name: "Travelend App",
+        technology: "Laravel, Bootstrap",
+        description:
+          "A dynamic travel landing page created with the Laravel framework, Livewire for routing, and Bootstrap for styling.",
+        link: "https://github.com/IdaDanuartha/travelend-revisi",
+        image: travelend,
       },
     ],
   }),
